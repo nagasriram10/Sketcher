@@ -275,7 +275,7 @@ close_image=Label(gallery_tab,text="Press \"Esc\" key to close you image.",bg="b
 
 #creation of buttons in home tab
 camera=Button(home_tab,image=blackcam1,text="Camera Tab",borderwidth=5,padx=0,pady=0,bg='white',command=lambda:home_tab_click(1))
-gallery=Button(home_tab,image=blackgallery1,borderwidth=5,padx=0,pady=0,bg='white',command=lambda:home_tab_click(2))
+gallery=Button(home_tab,image=blackgallery1,text="Gallery Tab",borderwidth=5,padx=0,pady=0,bg='white',command=lambda:home_tab_click(2))
 
 #creation of buttons in camera tab
 cam_image_original=Button(camera_tab,text='Original',borderwidth=1,padx=83,pady=20,command=lambda:original(0))
